@@ -25,7 +25,7 @@ Route::get('/register', 'RegistrationController@create');
 
 Route::post('/register', 'RegistrationController@create');
 
-Route::get('/login', 'SessionsController@create');
+//Route::get('/login', 'SessionsController@create');
 
 //damn, conteaza ordinea in care pun rutele. cand puneam {post} inainte de create, imi dadea eroare, ruta lua 'create'
 // din url si il trimitea ca parametru $id pentru a accesa postul respectiv
